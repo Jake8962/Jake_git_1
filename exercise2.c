@@ -5,7 +5,7 @@ int main(){
 	char *phone = "010-4199-1606";
 	int input;
 	while(1){
-		printf("input : ");
+		printf("input(1:email,2:phone,other:quit) : ");
 		scanf("%d",&input);
 		if(input == 1)
 			printf("%s\n",email);
